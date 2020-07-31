@@ -1,0 +1,7 @@
+# IBD generator
+/generator/add combo ibd:fill:poisson
+/generator/ibd/spectrum boulby_geo 
+/generator/vtx/set IBD 0 0 1
+/generator/pos/set 0 0 0
+
+/run/beamOn 1000

@@ -1,0 +1,7 @@
+# IBD generator
+/generator/add combo ibd:fill:poisson
+/generator/ibd/spectrum big_hartlepool 
+/generator/vtx/set IBD 1 0 0
+/generator/pos/set 0 0 0
+
+/run/beamOn 1000

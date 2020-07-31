@@ -1,0 +1,5 @@
+# PMT Bismuth Events
+/generator/add decaychain 208Tl:regexfill:poisson
+/generator/pos/set inner_pmts[0-9]+|veto_pmts[0-9]+
+
+/run/beamOn 20000

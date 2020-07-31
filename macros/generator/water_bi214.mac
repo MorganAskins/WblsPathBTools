@@ -1,0 +1,5 @@
+# Water Bismuth Events
+/generator/add decaychain 214Bi:fill:poisson
+/generator/pos/set 0 0 0
+ 
+/run/beamOn 1000

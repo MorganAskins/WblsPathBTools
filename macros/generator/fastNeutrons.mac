@@ -1,0 +1,4 @@
+# Fast neutrons with --vector / -x
+/generator/add external external:poisson
+
+/run/beamOn 10000

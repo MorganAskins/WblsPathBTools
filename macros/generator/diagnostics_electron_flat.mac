@@ -1,0 +1,6 @@
+# IBD generator
+/generator/add combo gun2:point:poisson
+/generator/vtx/set e- 0 0 1 0 0.0 10.0 
+/generator/pos/set 0 0 0
+
+/run/beamOn 100

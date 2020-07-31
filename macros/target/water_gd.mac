@@ -1,0 +1,13 @@
+/rat/db/set GEO[detector] material "doped_water"
+/rat/db/set GEO[inner_surface] material "doped_water"
+
+/run/initialize
+
+/rat/proc noise
+/rat/procset rate 3000.0
+/rat/proc splitevdaq
+/rat/procset trigger_on_noise 0
+/rat/procset trigger_threshold 8.0
+/rat/proc count
+/rat/procset update 10
+/rat/proc outroot

@@ -1,0 +1,8 @@
+/tracking/storeTrajectory 1
+
+# IBD generator
+/generator/add combo pbomb:point 
+/generator/vtx/set 10000 430
+/generator/pos/set 0 0 0
+
+/run/beamOn 1
