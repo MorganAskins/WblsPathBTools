@@ -1,0 +1,63 @@
+{
+  "header" :
+  {
+    "base_directory" : "/global/home/users/maskins/scratch/PathBWbls/hadded",
+    "training_directory" : "/global/home/users/maskins/scratch/PathBWbls/mergedbg",
+    "sample_directory" : "/global/home/users/maskins/scratch/PathBWbls/sample",
+    "dstree" : "T",
+    "dsbranch" : "ds",
+    "deltat" : 1e-3,
+    "deltar" : 3000,
+    "min_nhit" : 5
+  },
+  "components": [
+    {
+      "name": "PMT Bismuth",
+      "directory": "pmt_bi214",
+      "class": "single",
+      "rate": 2480.0
+    },
+    {
+      "name": "PMT Thalium",
+      "directory": "pmt_tl208",
+      "class": "single",
+      "rate": 2530.0
+    },
+    {
+      "name": "PMT Potassium",
+      "directory": "pmt_k40",
+      "class": "single",
+      "rate": 79.7
+    },
+    {
+      "name": "Water Thalium",
+      "directory": "water_tl208",
+      "class": "single",
+      "rate": 2.18
+    },
+    {
+      "name": "Water Bismuth",
+      "directory": "water_bi214",
+      "class": "single",
+      "rate": 0.218
+    },
+    {
+      "name": "Geoneutrinos",
+      "directory": "geoneutrino",
+      "class": "multi",
+      "rate": 1.62e-06
+    },
+    {
+      "name": "World Reactors",
+      "directory": "reactorWorld",
+      "class": "multi",
+      "rate": 1.02e-05
+    },
+    {
+      "name": "Fast Neutrons",
+      "directory": "20m",
+      "class": "multi",
+      "rate": 4.844e-3
+    }
+  ]
+}

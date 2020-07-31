@@ -1,0 +1,21 @@
+{
+  "header" :
+  {
+    "base_directory" : "/global/home/users/maskins/scratch/PathBWbls/pruned",
+    "training_directory" : "/global/home/users/maskins/scratch/PathBWbls/mergedsignal",
+    "sample_directory" : "/global/home/users/maskins/scratch/PathBWbls/sample",
+    "dstree" : "T",
+    "dsbranch" : "ds",
+    "deltat" : 1e-3,
+    "deltar" : 3000,
+    "min_nhit" : 5
+  },
+  "components": [
+    {
+      "name": "Hartlepool 1core",
+      "directory": "reactorSignal",
+      "class": "multi",
+      "rate": 2.29e-05
+    }
+  ]
+}
